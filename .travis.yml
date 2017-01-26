@@ -1,0 +1,16 @@
+language: cpp
+
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y boost
+  
+compiler:
+  - g++
+script:
+  -cd Hola
+  - mkdir build
+  - cd holaWorld-master
+  - cmake cmake -H. -B../build
+   - cd ../build
+  - make
+  
