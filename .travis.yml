@@ -1,11 +1,14 @@
 language: cpp
 
-before_install:
-  - sudo apt-get -qq update
-  - sudo apt-get install -y boost
   
 compiler:
   - g++
+
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y boost
+
+  
 script:
   -cd Hola
   - mkdir build
