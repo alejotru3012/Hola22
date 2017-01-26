@@ -24,4 +24,4 @@ add_executable(test_hola test/test_hola.cpp)
 
 add_executable(hola ${SOURCES} ${HEADERS})
 
-target_link_libraries(test_hola PRIVATE  ${BOOST_INCLUDE_DIRS})
+target_link_libraries(test_hola  ${BOOST_INCLUDE_DIRS})
