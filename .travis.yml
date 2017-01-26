@@ -1,6 +1,5 @@
 language: cpp
 
-  
 compiler:
   - g++
 
@@ -11,6 +10,6 @@ script:
   - mkdir build
   - cd holaWorld-master
   - cmake cmake -H. -B../build
-   - cd ../build
+  - cd ../build
   - make
   
