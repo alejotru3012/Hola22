@@ -15,6 +15,6 @@ script:
   - cmake cmake -H. -B../build
   - cd ../build
   - make
-  - ./hola Congote
+  - ./hola Congo
   - ./test_hola
   
