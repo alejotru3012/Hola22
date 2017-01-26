@@ -4,13 +4,10 @@ language: cpp
 compiler:
   - g++
 
-before_install:
+script:
   - sudo apt-get -qq update
   - sudo apt-get install -y libboost-dev
-
-  
-script:
-  -cd Hola
+  - cd Hola
   - mkdir build
   - cd holaWorld-master
   - cmake cmake -H. -B../build
